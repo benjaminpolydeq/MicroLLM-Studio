@@ -1,21 +1,397 @@
-MIT License
+# MicroLLM Studio Proprietary Software License
 
-Copyright (c) 2025 benjaminpolydeq
+**Version 1.0 - Effective Date: December 20, 2025**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Copyright Notice
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Copyright © 2025 **BENJAMIN AMAAD KAMA**. All Rights Reserved.
+
+MicroLLM Studio and all associated software, documentation, algorithms, and intellectual property are the exclusive property of BENJAMIN AMAAD KAMA (hereinafter referred to as "the Owner").
+
+---
+
+## 1. Grant of License
+
+Subject to the terms and conditions of this License Agreement, the Owner grants you a limited, non-exclusive, non-transferable, revocable license to use the MicroLLM Studio software (the "Software") strictly in accordance with the license tier you have purchased or been granted access to.
+
+### 1.1 License Tiers
+
+**a) Evaluation License (Free Trial)**
+- Duration: 30 days from first activation
+- Scope: Single user, non-commercial evaluation only
+- Restrictions: Cannot be used for production workloads or commercial purposes
+- No support provided
+
+**b) Starter License**
+- Commercial use permitted
+- Maximum 1 tenant organization
+- Maximum 5 deployed models
+- Email support (48-hour response time)
+- Annual subscription required
+
+**c) Professional License**
+- Commercial use permitted
+- Maximum 10 tenant organizations
+- Unlimited models
+- Priority email support (24-hour response time)
+- Quarterly security updates
+- Annual subscription required
+
+**d) Enterprise License**
+- Unlimited commercial use
+- Unlimited tenant organizations
+- Unlimited models
+- 24/7 priority support with dedicated account manager
+- Custom SLA agreements available
+- On-premises deployment rights
+- Source code access (under separate NDA)
+- Quarterly security updates and patches
+- Custom licensing terms negotiable
+- Annual or perpetual license available
+
+**e) Academic/Research License**
+- Non-commercial research and educational use only
+- Must cite MicroLLM Studio in publications
+- Source code access for research purposes (under separate agreement)
+- Free for accredited educational institutions
+- Annual renewal required
+
+---
+
+## 2. Scope of License
+
+### 2.1 Permitted Uses
+
+You may:
+- Install and use the Software on devices and infrastructure explicitly permitted by your license tier
+- Use the Software to develop, train, and deploy language models within the scope of your license
+- Create derivative works (models, configurations) that run on the Software platform
+- Make backup copies for archival purposes only
+
+### 2.2 Restrictions
+
+You may NOT:
+- Reverse engineer, decompile, disassemble, or attempt to derive the source code of the Software (except as permitted under Enterprise or Academic licenses)
+- Remove, alter, or obscure any copyright, trademark, or proprietary notices
+- Redistribute, sublicense, rent, lease, or lend the Software to third parties
+- Use the Software to develop competing products or services
+- Exceed the usage limitations specified in your license tier
+- Use the Software for any illegal, harmful, or malicious purposes
+- Extract, copy, or replicate the ARSLM architecture or algorithms for use outside the Software
+- Share API keys, authentication credentials, or access tokens
+- Circumvent any technical limitations, security measures, or usage tracking mechanisms
+- Use the Software to train models that violate applicable laws or regulations
+- Deploy the Software in ways that violate data protection regulations (GDPR, HIPAA, etc.)
+
+---
+
+## 3. Intellectual Property Rights
+
+### 3.1 Ownership
+
+The Software, including but not limited to:
+- The ARSLM (Adaptive Recurrent Self-Learning Memory) architecture
+- All source code, object code, and compiled binaries
+- Documentation, user interfaces, and design elements
+- Algorithms, methodologies, and technical innovations
+- Trademarks, service marks, and trade names
+- Patents, patent applications, and trade secrets
+
+...are and shall remain the exclusive property of **BENJAMIN AMAAD KAMA**.
+
+### 3.2 Derivative Works
+
+Any models, configurations, or outputs created using the Software are owned by you, but may only be used with the Software unless explicitly stated otherwise in your license agreement.
+
+### 3.3 Feedback and Contributions
+
+Any feedback, suggestions, ideas, or contributions you provide regarding the Software become the property of the Owner and may be used without compensation or attribution.
+
+---
+
+## 4. Data Privacy and Security
+
+### 4.1 Data Ownership
+
+You retain all rights, title, and interest in your data, training datasets, and models created using the Software.
+
+### 4.2 Owner's Access
+
+The Owner does not access, collect, or store your data, models, or training datasets except:
+- Anonymous usage statistics (if telemetry is enabled)
+- Technical support diagnostics (with your explicit consent)
+- Security incident investigations (as required by law)
+
+### 4.3 Privacy Commitments
+
+The Software is designed with privacy-first principles:
+- Differential privacy implementation
+- Federated learning capabilities
+- End-to-end encryption options
+- Zero-knowledge architecture for multi-tenant deployments
+
+---
+
+## 5. Term and Termination
+
+### 5.1 Term
+
+This License is effective upon your acceptance and continues until terminated in accordance with this section.
+
+### 5.2 Termination by You
+
+You may terminate this License at any time by:
+- Ceasing all use of the Software
+- Destroying all copies of the Software in your possession
+- Notifying the Owner in writing
+
+### 5.3 Termination by Owner
+
+The Owner may terminate this License immediately if you:
+- Breach any term of this Agreement
+- Exceed your licensed usage limits
+- Fail to pay applicable license fees
+- Use the Software for prohibited purposes
+- Engage in reverse engineering or unauthorized redistribution
+
+### 5.4 Effects of Termination
+
+Upon termination:
+- All rights granted under this License immediately cease
+- You must cease all use of the Software
+- You must destroy all copies of the Software
+- You must return or destroy any confidential information
+- Sections 3 (Intellectual Property), 6 (Warranties), 7 (Liability), and 10 (General) survive termination
+
+---
+
+## 6. Warranties and Disclaimers
+
+### 6.1 Limited Warranty (Enterprise Licenses Only)
+
+For Enterprise License holders, the Owner warrants that:
+- The Software will substantially conform to its documentation
+- The Software does not infringe third-party intellectual property rights (to Owner's knowledge)
+- The Owner will provide updates and patches as specified in the SLA
+
+### 6.2 Disclaimer of Warranties
+
+EXCEPT AS EXPRESSLY PROVIDED IN SECTION 6.1, THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+- MERCHANTABILITY
+- FITNESS FOR A PARTICULAR PURPOSE
+- NON-INFRINGEMENT
+- ACCURACY OR RELIABILITY OF RESULTS
+- UNINTERRUPTED OR ERROR-FREE OPERATION
+- COMPATIBILITY WITH YOUR SYSTEMS
+- MEETING YOUR REQUIREMENTS
+
+THE OWNER DOES NOT WARRANT THAT:
+- The Software will be free from bugs, errors, or vulnerabilities
+- Models trained using the Software will achieve specific performance metrics
+- The Software will be compatible with future systems or standards
+
+---
+
+## 7. Limitation of Liability
+
+### 7.1 Exclusion of Damages
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL **BENJAMIN AMAAD KAMA** BE LIABLE FOR:
+
+- INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES
+- LOSS OF PROFITS, REVENUE, DATA, OR USE
+- BUSINESS INTERRUPTION OR DOWNTIME
+- LOSS OF GOODWILL OR REPUTATION
+- COST OF SUBSTITUTE GOODS OR SERVICES
+- FAILURE OF SECURITY MEASURES
+- THIRD-PARTY CLAIMS
+
+...EVEN IF THE OWNER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+### 7.2 Maximum Liability
+
+The Owner's total liability under this Agreement shall not exceed the amount paid by you for the Software in the twelve (12) months preceding the claim, or $100 USD if no fees were paid.
+
+### 7.3 Critical Applications
+
+THE SOFTWARE IS NOT DESIGNED, INTENDED, OR AUTHORIZED FOR USE IN:
+- Life-critical medical equipment or applications
+- Nuclear facilities or systems
+- Aircraft navigation or communication systems
+- Weapons systems
+- Direct life support machines
+
+Use of the Software in such applications is prohibited and at your sole risk.
+
+---
+
+## 8. Compliance and Export Control
+
+### 8.1 Export Regulations
+
+The Software may be subject to export control laws and regulations. You agree to comply with all applicable international and national laws including:
+- U.S. Export Administration Regulations (EAR)
+- International Traffic in Arms Regulations (ITAR)
+- Economic sanctions and embargoes
+
+### 8.2 Prohibited Jurisdictions
+
+You may not use, export, or re-export the Software to:
+- Countries subject to U.S. or international embargoes
+- Individuals or entities on restricted party lists
+- For purposes prohibited by applicable laws
+
+### 8.3 Regulatory Compliance
+
+You are responsible for ensuring your use of the Software complies with:
+- GDPR (General Data Protection Regulation)
+- HIPAA (Health Insurance Portability and Accountability Act)
+- CCPA (California Consumer Privacy Act)
+- SOC 2, ISO 27001, and other applicable standards
+- Industry-specific regulations (financial services, healthcare, etc.)
+
+---
+
+## 9. Updates and Maintenance
+
+### 9.1 Updates
+
+The Owner may provide updates, patches, and new versions of the Software at its discretion. Updates may:
+- Fix bugs and security vulnerabilities
+- Add new features
+- Improve performance
+- Modify or remove existing functionality
+
+### 9.2 Automatic Updates
+
+The Software may automatically download and install updates. You may disable automatic updates, but this may:
+- Reduce security
+- Cause compatibility issues
+- Void certain warranty provisions
+
+### 9.3 Maintenance Windows
+
+For Enterprise License holders, scheduled maintenance will be:
+- Announced 72 hours in advance
+- Performed during agreed-upon maintenance windows
+- Limited to 4 hours per month (unless emergency)
+
+---
+
+## 10. General Provisions
+
+### 10.1 Entire Agreement
+
+This License constitutes the entire agreement between you and the Owner regarding the Software and supersedes all prior agreements, understandings, and communications.
+
+### 10.2 Amendments
+
+The Owner reserves the right to modify this License at any time. Continued use of the Software after modifications constitutes acceptance of the modified terms.
+
+### 10.3 Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of [YOUR JURISDICTION], without regard to conflict of law principles.
+
+### 10.4 Dispute Resolution
+
+**a) Negotiation:** Parties agree to first attempt to resolve disputes through good-faith negotiation.
+
+**b) Mediation:** If negotiation fails, disputes shall be submitted to mediation before proceeding to arbitration.
+
+**c) Arbitration:** Unresolved disputes shall be settled by binding arbitration in accordance with the rules of [ARBITRATION BODY].
+
+**d) Jurisdiction:** For matters not subject to arbitration, exclusive jurisdiction lies with the courts of [YOUR JURISDICTION].
+
+### 10.5 Severability
+
+If any provision of this License is held to be unenforceable, that provision shall be modified to the minimum extent necessary to make it enforceable, or if it cannot be made enforceable, it shall be severed, and the remainder of this License shall continue in full force.
+
+### 10.6 Waiver
+
+Failure by the Owner to enforce any provision of this License shall not constitute a waiver of that provision or any other provision.
+
+### 10.7 Assignment
+
+You may not assign or transfer this License without the Owner's prior written consent. The Owner may assign this License without restriction.
+
+### 10.8 Force Majeure
+
+Neither party shall be liable for failure to perform due to causes beyond reasonable control, including natural disasters, war, terrorism, labor disputes, or government actions.
+
+### 10.9 Notices
+
+All notices under this Agreement must be in writing and sent to:
+
+**BENJAMIN AMAAD KAMA**  
+MicroLLM Studio Licensing Department  
+Email: benjokama@hotmail.fr  
+Address: [Your Business Address]
+
+### 10.10 Survival
+
+Provisions that by their nature should survive termination shall survive, including: Intellectual Property Rights, Warranties, Liability Limitations, and General Provisions.
+
+---
+
+## 11. Contact Information
+
+For licensing inquiries, support, or questions:
+
+**Owner:**  
+BENJAMIN AMAAD KAMA
+
+**Primary Email:**  
+benjokama@hotmail.fr
+
+**Alternative Contacts:**  
+- General Inquiries: benjokama@hotmail.fr
+- Licensing Questions: benjokama@hotmail.fr
+- Technical Support: benjokama@hotmail.fr
+- Security Issues: benjokama@hotmail.fr
+
+**Website:**  
+https://microllm.ai
+
+**GitHub:**  
+https://github.com/benjaminpolydeq/MicroLLM-Studio
+
+---
+
+## 12. Acknowledgment
+
+BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS LICENSE AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DO NOT INSTALL, COPY, OR USE THE SOFTWARE.
+
+---
+
+**END OF LICENSE AGREEMENT**
+
+---
+
+## License Summary (Non-Legal)
+
+**This is a proprietary license. Key points:**
+
+✅ **You CAN:**
+- Use MicroLLM Studio according to your purchased license tier
+- Create and deploy AI models using the platform
+- Use it commercially (with appropriate license)
+- Keep your data completely private
+
+❌ **You CANNOT:**
+- Redistribute or resell the software
+- Reverse engineer the ARSLM architecture
+- Use it to build competing products
+- Exceed your license tier limitations
+
+📧 **Questions?** Contact benjokama@hotmail.fr
+
+---
+
+**Copyright © 2025 BENJAMIN AMAAD KAMA. All Rights Reserved.**
+
+**MicroLLM Studio™ is a trademark of BENJAMIN AMAAD KAMA.**
