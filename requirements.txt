@@ -1,4 +1,17 @@
-streamlit==1.31.0
-pandas
-plotly
-numpy
+# Streamlit UI
+streamlit==1.26.0
+
+# Transformers & PyTorch for LLM
+transformers==4.41.0
+torch==2.1.0
+
+# PDF, DOCX, CSV handling
+PyPDF2==3.1.0
+python-docx==0.8.11
+pandas==2.1.0
+
+# Interactive charts
+plotly==5.16.0
+
+# Optional: HTTP requests for backend API
+requests==2.31.0
