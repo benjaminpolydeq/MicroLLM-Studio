@@ -1,17 +1,38 @@
-# Streamlit UI
+# ===============================
+# Core Streamlit
+# ===============================
 streamlit==1.26.0
+streamlit-chat==0.0.4   # pour chat UI amélioré (avatars, messages stylés)
+streamlit-aggrid==1.8.4 # tables interactives
 
-# Transformers & PyTorch for LLM
+# ===============================
+# LLM / AI
+# ===============================
 transformers==4.41.0
 torch==2.1.0
 
-# PDF, DOCX, CSV handling
+# ===============================
+# Data handling
+# ===============================
+pandas==2.1.0
+numpy==1.26.0
 PyPDF2==3.1.0
 python-docx==0.8.11
-pandas==2.1.0
+openpyxl==3.2.3   # si besoin Excel XLSX
+csvkit==1.0.8     # manip CSV avancé
 
-# Interactive charts
+# ===============================
+# Visualization & UI enhancements
+# ===============================
 plotly==5.16.0
+matplotlib==3.8.0
+seaborn==0.12.3
+altair==5.0.1
+rich==13.6.0       # pour console stylée et logs
+pillow==10.1.0     # images dans UI
+streamlit-extras==0.3.2 # utilitaires UI avancés
 
-# Optional: HTTP requests for backend API
+# ===============================
+# Networking / API
+# ===============================
 requests==2.31.0
